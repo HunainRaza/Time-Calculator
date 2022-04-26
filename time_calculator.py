@@ -16,7 +16,6 @@ def add_time(start, duration, args=False):
     Updated_Minutes = int(Start_Minutes) + int(Duration_Minutes)
     Upcoming_Day = 0
 
-
     if Updated_Minutes >= 60:
         Updated_Hour += int(Updated_Minutes / 60)
         Updated_Minutes = int(Updated_Minutes % 60)
